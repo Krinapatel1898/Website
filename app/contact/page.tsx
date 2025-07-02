@@ -42,9 +42,10 @@ export default function ContactPage() {
 
   return (
     <div className="container py-12 md:py-16">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/55 via-background to-background/80 -z-10" />
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Me</h1>
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl transition-transform duration-500 ease-out transform hover:scale-105">Contact Me</h1>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Let's connect! Reach out to me for opportunities or questions.
           </p>
@@ -145,7 +146,7 @@ export default function ContactPage() {
                   <h3 className="font-medium">LinkedIn</h3>
                   <p className="text-sm text-muted-foreground">
                     <a
-                      href="https://linkedin.com/in/krina-patel"
+                      href="https://www.linkedin.com/in/krinapatel185/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"

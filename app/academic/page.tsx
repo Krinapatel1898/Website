@@ -3,9 +3,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function AcademicPage() {
   return (
     <div className="container py-12 md:py-16">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/55 via-background to-background/80 -z-10" />
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Academic Background</h1>
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl transition-transform duration-500 ease-out transform hover:scale-105">Academic Background</h1>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             My educational journey and qualifications
           </p>

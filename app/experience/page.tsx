@@ -3,9 +3,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function ExperiencePage() {
   return (
     <div className="container py-12 md:py-16">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/55 via-background to-background/80 -z-10" />
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Work Experience</h1>
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl transition-transform duration-500 ease-out transform hover:scale-105">Work Experience</h1>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             My professional journey and contributions
           </p>
@@ -26,32 +27,30 @@ export default function ExperiencePage() {
           <CardContent>
             <ul className="list-disc pl-5 space-y-2">
               <li>
-                Led the migration of 20+ tables and 30+ stored procedures to a new MySQL database for the MobilePay
-                application, enhancing query performance by 25%. Updated microservices connection strings and ensured
-                seamless API functionality post-deployment.
+                Led the migration of 20+ tables and 30+ stored procedures to a new MySQL database for the MobilePay application, enhancing query performance by 68%. Updated microservices connection strings and ensured seamless API
+                functionality post-deployment.
               </li>
               <li>
-                Engineered and integrated RESTful APIs using Swagger, leveraging C# and .NET to ensure secure, scalable
-                communication between microservices, enhancing request handling efficiency by 40%.
+                Engineered and integrated RESTful APIs using Swagger, leveraging C# and .NET to ensure secure, scalable communication between microservices, enhancing request handling efficiency by 57%.
               </li>
               <li>
-                Implemented Patient email notifications using Orchestrated RabbitMQ and Azure Key Vault integration for
-                secure, asynchronous microservice communication, reducing message latency by 60ms and enhancing
-                application responsiveness.
+                Implemented Patient email notifications using Orchestrated RabbitMQ and Azure Key Vault integration for secure,
+                asynchronous microservice communication, reducing message latency by 60ms and enhancing application responsiveness.
               </li>
               <li>
-                Implemented voucher card functionality in the Doctor Payment application using Angular, TypeScript, and
-                HTML. Developed Angular components to efficiently fetch and display patient balances, optimizing UI
-                performance and reducing page refresh time by 40%.
+                 Implemented voucher card functionality in the DoctorPayment application using Angular, TypeScript, and HTML.
+                 Developed Angular components to efficiently fetch and display patient balances, optimizing UI performance and reducing
+                 page refresh time by 44%.
               </li>
               <li>
-                Enhanced CI/CD pipelines by refining YAML configurations, integrating Docker for containerized
-                deployments, and automating DACPAC database deployments for UAT and PROD, minimizing manual effort time
-                by 150 milliseconds and accelerating deployment speed.
+                 Optimized CI/CD pipelines by refining YAML configurations, integrating Docker for containerized deployments, and
+                 automating DACPAC database deployments, reducing manual effort by 66.67% and cutting deployment time from 30
+                 minutes to 10 minutes.
+
               </li>
               <li>
-                Streamlined project management by handling high-priority PBIs in Azure DevOps and designing use case
-                diagrams in Azure Wiki with Mermaid to enhance team collaboration and project clarity.
+                Streamlined project management by handling high-priority PBIs in Azure DevOps and designing use case diagrams
+                in Azure Wiki with Mermaid to enhance team collaboration and project clarity.
               </li>
             </ul>
           </CardContent>
